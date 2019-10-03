@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script
+            src="https://code.jquery.com/jquery-3.4.1.min.js"
+            integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+            crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="./js/main.js"></script>
+</head>
+<body>
+<label>Latitude: </label><input id="latitude" type="number" value="-73.856077" />
+<label>Longitude: </label><input id="longitude" type="number" value="40.848447"/>
+<button id="searchDestinations">Search</button>
+<p/>
+<b>Filter By Type</b>
+<br />
+<label>Restaurants: </label><input type="checkbox" id="restaurant" />
+
+<p/>
+<hr />
+<b>Destinations</b>
+<div id="destinations">
+    No Destinations Found
+</div>
+</body>
+</html>
